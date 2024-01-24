@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000; 
+    border-radius: .5rem;
+}
+
+.preload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #fff;
+    height: 100vh;
+    width: 100%;
+    cursor: default;
+}
+
+h1.preload-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin: 0;
+    cursor: default;
+}
+
+p.preload-desc {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    margin-bottom: 0;
+    cursor: default;
+}
+
+span.preload-change {
+    -webkit-text-stroke: 1px #000;
+    -webkit-text-fill-color: #fff;
+}

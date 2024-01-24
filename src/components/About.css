@@ -1,0 +1,36 @@
+.about-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    cursor: default;
+}
+
+.about-section {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    cursor: default;
+}
+
+.about-content {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Poppins', sans-serif !important;
+    letter-spacing: 2px !important;
+    border-bottom: 1px solid #000;
+}
+
+.about-content:hover {
+    color: #000;
+}
+
+.about-desc {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 35px;
+    cursor: default;
+}
+
+@media (max-width: 420px) {
+    .about-desc {
+        font-size: 14px;
+    }
+}
